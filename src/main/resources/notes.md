@@ -7,3 +7,13 @@
         - Peek or Top: Returns top element of stack.
         - isEmpty: Returns true if stack is empty, else false.
 
+### String, StringBuffer and StringBuilder 
+    java.lang
+
+### What is class in java ?
+ 
+    - A class is a blueprint or template which helps to create object.
+    - A class contains fields and methods
+    
+    
+
