@@ -15,5 +15,9 @@
     - A class is a blueprint or template which helps to create object.
     - A class contains fields and methods
     
-    
+### Type casting, parsing, boxing and unboxing
+    - Type casting: Converting one data type to another data type
+    - Parsing: Converting String to primitive data type
+    - Boxing: Converting primitive data type to wrapper class
+    - Unboxing: Converting wrapper class to primitive data type
 
