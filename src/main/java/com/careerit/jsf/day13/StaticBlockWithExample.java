@@ -14,7 +14,8 @@ public class StaticBlockWithExample {
         System.out.println("This is static block of StaticBlockWithExample class");
     }
     public static void main(String[] args) {
-        Account.showInfo();
         System.out.println("Main method");
+        Account.showInfo();
+
     }
 }
