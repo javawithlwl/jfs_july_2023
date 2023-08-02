@@ -26,9 +26,9 @@ class Employee {
     }
 
     public void showDetails() {
-        System.out.println("Empno :" + empno);
-        System.out.println("Name :" + name);
-        System.out.println("Email :" + email);
+        System.out.println("Empno  :" + empno);
+        System.out.println("Name   :" + name);
+        System.out.println("Email  :" + email);
         System.out.println("Mobile :" + mobile);
     }
 }
