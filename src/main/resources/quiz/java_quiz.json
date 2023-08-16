@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is not a valid java data type ?",
+    "options": ["int","float","double","string"],
+    "answer": 4
+  }
+]
