@@ -1,0 +1,57 @@
+[
+  {
+    "username": "krish",
+    "email": "krish@gmail.com",
+    "password": "krish@123"
+  },
+  {
+    "username": "manoj",
+    "email": "manoj@gmail.com",
+    "password": "manoj@123"
+  },
+  {
+    "username": "charan",
+    "email": "charan@gmail.com",
+    "password": "charan@123"
+  },
+  {
+    "username": "kiran",
+    "email": "kiran@gmail.com",
+    "password": "kiran@123"
+  },
+  {
+    "username": "srikanth",
+    "email": "srikanth@gmail.com",
+    "password": "srikanth@123"
+  },
+  {
+    "username": "latha",
+    "email": "latha@gmail.com",
+    "password": "latha@123"
+  },
+  {
+    "username": "jayesh",
+    "email": "jayesh@gmail.com",
+    "password": "jayesh@123"
+  },
+  {
+    "username": "kamesh",
+    "email": "kamesh@gmail.com",
+    "password": "kamesh@123"
+  },
+  {
+    "username": "rajeshm",
+    "email": "rajeshm@gmail.com",
+    "password": "rajeshm@123"
+  },
+  {
+    "username": "ramesh",
+    "email": "ramesh@gmail.com",
+    "password": "ramesh@123"
+  },
+  {
+    "username": "suresh",
+    "email": "suresh@gmail.com",
+    "password": "suresh@123"
+  }
+]
