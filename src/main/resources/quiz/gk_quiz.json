@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital city of India?",
+      "options": [
+        "Mumbai",
+        "Kolkata",
+        "Chennai",
+        "New Delhi"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet ?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the largest mammal on Earth? ",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Polar Bear"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the chemical symbol for gold? ",
+      "options": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Cu"
+      ],
+      "answer": 1
+    }
+  ]
+}
