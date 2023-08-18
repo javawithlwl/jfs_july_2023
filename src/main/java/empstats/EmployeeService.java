@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -46,13 +47,14 @@ public class EmployeeService {
     }
     // Get top nth highest paid employee names
     public List<String> getNthHighestPaidEmployeeNames(int n){
-        Map<Double, List<Employee>> retRes = empList
+       return empList
                 .stream()
-                .collect(Collectors.groupingBy(Employee::getSalary));
-        Double salary = retRes.keySet().stream()
-                .sorted(Comparator.comparingDouble(Double::doubleValue).reversed())
-                .toList().get(n - 1);
-           return retRes.get(salary).stream().map(e->e.getFirstName()+" "+e.getLastName()).toList();
+                .collect(Collectors.groupingBy(Employee::getSalary))
+                .entrySet()
+                .stream()
+                .sorted(Collections.reverseOrder(Map.Entry.comparingByKey()))
+                .toList()
+                .get(n - 1).getValue().stream().map(ele->ele.getLastName()+" "+ele.getLastName()).toList();
     }
 
     @SneakyThrows
