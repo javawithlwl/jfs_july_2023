@@ -1,0 +1,32 @@
+[
+  {
+    "cid": 1001,
+    "name": "Manoj",
+    "billAmount": 560,
+    "country": "IND"
+  },
+  {
+    "cid": 1002,
+    "name": "Nirmala",
+    "billAmount": 18,
+    "country": "USA"
+  },
+  {
+    "cid": 1003,
+    "name": "RK",
+    "billAmount": 1200,
+    "country": "IND"
+  },
+  {
+    "cid": 1004,
+    "name": "Charan",
+    "billAmount": 15,
+    "country": "SG"
+  },
+  {
+    "cid": 1005,
+    "name": "John",
+    "billAmount": 12,
+    "country": "USA"
+  }
+]
