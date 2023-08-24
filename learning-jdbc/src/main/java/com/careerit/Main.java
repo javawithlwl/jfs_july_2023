@@ -1,44 +1,30 @@
 package com.careerit;
 
+import com.careerit.cbook.dao.CbookDao;
+import com.careerit.cbook.dao.CbookDaoImpl;
+import com.careerit.cbook.domain.Contact;
+
+import java.io.IOException;
 import java.sql.*;
+import java.util.List;
+import java.util.Properties;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        String username = "dbuser";
-        String password = "dbuser";
-        String url = "jdbc:postgresql://localhost:5432/ipl_stat_db";
+        CbookDao contactDao = new CbookDaoImpl();
+        /*List<Contact> contactList = contactDao.search("sa");
+        contactList.forEach(ele->{
+            System.out.println(ele.getName());
+        });*/
 
-        Connection con = null;
-        Statement st = null;
-        ResultSet rs = null;
-        try{
-            con = DriverManager.getConnection(url, username, password);
-            st = con.createStatement();
-            rs = st.executeQuery("select * from app_user");
-            while(rs.next()){
-                System.out.println(rs.getString("name"));
-                System.out.println(rs.getString("email"));
-                System.out.println(rs.getString("mobile"));
-                System.out.println("-".repeat(100));
-            }
-        }catch (SQLException e){
-            e.printStackTrace();
-        }finally{
-            try{
-                if(rs != null){
-                    rs.close();
-                }
-                if(st != null){
-                    st.close();
-                }
-                if(con != null){
-                    con.close();
-                }
-            }catch (SQLException e){
-                e.printStackTrace();
-            }
-        }
-        
+        Contact contact = Contact.builder()
+                .name("Tanvi")
+                .mobile("9999999999")
+                .email("tanvi.a@gmail.com")
+                .build();
+
+        Contact savedContact = contactDao.addContact(contact);
+        System.out.println("Contact is saved with id :"+savedContact.getId());
     }
 }
