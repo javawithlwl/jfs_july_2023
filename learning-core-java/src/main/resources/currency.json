@@ -1,0 +1,14 @@
+[
+  {
+    "countryCode": "USA",
+    "currencySymbol": "$"
+  },
+  {
+    "countryCode": "IND",
+    "currencySymbol": "₹"
+  },
+  {
+    "countryCode": "SG",
+    "currencySymbol": "S$"
+  }
+]

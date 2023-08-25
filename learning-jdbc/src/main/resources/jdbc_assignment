@@ -1,0 +1,12 @@
+1. Get amount spent by the given team
+2. Get all the team names
+3. Get top paid player(s) for the given team
+4. Get top paid player(s) for each team
+5. Get top paid player(s) for each role
+6. Get team stats ( min, max, avg, total, count ) of all the teams
+7. Get team stats ( min, max, avg, total, count ) of the given team
+8. Get team stats ( min, max, avg, total, count ) of the given role
+9. Get players by the given role
+10. Get players given role and team
+11. Add a new player to team
+12. Update a player's salary by 10% of given team

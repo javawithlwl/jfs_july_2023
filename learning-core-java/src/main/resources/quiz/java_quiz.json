@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the Java keyword used to create an instance of a class?",
+      "options": [
+        "instanceof",
+        "new",
+        "create",
+        "instantiate"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which data type is used to store a single 16-bit Unicode character in Java?",
+      "options": [
+        "char",
+        "byte",
+        "int",
+        "string"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which loop construct is best suited for situations where the number of iterations is not known beforehand ?",
+      "options": [
+        "for",
+        "while",
+        "do-until",
+        "until"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "which access modifier has the widest scope?",
+      "options": [
+        "default",
+        "public",
+        "private",
+        "protected"
+      ],
+      "answer": 2
+    }
+  ]
+}

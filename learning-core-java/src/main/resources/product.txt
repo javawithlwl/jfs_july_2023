@@ -1,0 +1,4 @@
+1001,Lenvo ThinkPad,56000
+1002,HP SlimBook,45000
+1003,Apple MacBook,120000
+1004,HP Pavilion,65000
