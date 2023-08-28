@@ -12,6 +12,7 @@
         <module>learning-jdbc</module>
         <module>learning-core-java</module>
         <module>learning-junit</module>
+        <module>learning-utils</module>
     </modules>
 
     <properties>
