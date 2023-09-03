@@ -3,6 +3,7 @@ package com.careerit.sb.todo.controller;
 import com.careerit.sb.todo.domain.TodoItem;
 import com.careerit.sb.todo.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,4 +31,8 @@ public class TodoItemController {
         return ResponseEntity.ok("Greetings from User TodoController");
     }
 
+    @GetMapping("/page-list")
+    public ResponseEntity<Page<TodoItem>> getTotoItems(){
+        return null;
+    }
 }
