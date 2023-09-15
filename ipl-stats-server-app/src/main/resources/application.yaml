@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lwl_db
+    username: dbuser
+    password: dbuser
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

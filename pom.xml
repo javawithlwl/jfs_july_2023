@@ -14,6 +14,7 @@
         <module>learning-junit</module>
         <module>learning-utils</module>
         <module>learning-spring-jdbc</module>
+        <module>ipl-stats-server-app</module>
     </modules>
 
     <properties>
