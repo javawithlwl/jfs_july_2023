@@ -13,4 +13,10 @@ public interface AppUserRepo extends JpaRepository<AppUser, UUID> {
         @Query("select u from AppUser u where u.email = :inputStr or u.username = :inputStr")
         //JPQL - Java Persistence Query Language
         List<AppUser> findByEmailOrName(@Param("inputStr") String str);
+
+        @Query("""
+                select case when count(u)> 0 then true else false end from AppUser u 
+                where u.id != :id and (u.username = :username or u.email = :email)
+               """)
+        boolean isUserExists(@Param("username") String username, @Param("email") String email,@Param("id") UUID id);
 }
