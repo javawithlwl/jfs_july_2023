@@ -3,6 +3,7 @@ package com.careerit.iplstats.api;
 import com.careerit.iplstats.domain.AppUser;
 import com.careerit.iplstats.service.AppUserService;
 import com.careerit.iplstats.util.ApiSuccessResponse;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,10 +14,11 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1/user")
+@RequiredArgsConstructor
 public class AppUserController {
 
-        @Autowired
-        private AppUserService appUserService;
+
+        private final AppUserService appUserService;
 
         @PostMapping("/register")
         public ResponseEntity<AppUser> registerUser(@RequestBody AppUser appUser){

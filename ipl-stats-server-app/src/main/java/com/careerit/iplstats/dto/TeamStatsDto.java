@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TeamStatsDto {
-
-        private String teamName;
+        private String teamLabel;
         private double totalAmount;
 }
