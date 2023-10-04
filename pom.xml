@@ -13,6 +13,10 @@
         <module>learning-core-java</module>
         <module>learning-junit</module>
         <module>learning-utils</module>
+        <module>learning-spring-jdbc</module>
+        <module>ipl-stats-server-app</module>
+        <module>cbook-client-app</module>
+        <module>todo-server-app</module>
     </modules>
 
     <properties>

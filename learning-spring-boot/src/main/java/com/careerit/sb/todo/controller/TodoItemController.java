@@ -33,6 +33,7 @@ public class TodoItemController {
 
     @GetMapping("/page-list")
     public ResponseEntity<Page<TodoItem>> getTotoItems(){
+        System.out.println("Request is made for todo items with page");
         return null;
     }
 }
