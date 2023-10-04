@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-ck4g4mk2kpls73dt13p0-a.oregon-postgres.render.com:5432/lwl_db
+    username: dbuser
+    password: JvL42pV5YmRGIcYhGmXooU8yRBAHm3zi
+  jpa:
+     show-sql: true
+
+
+
