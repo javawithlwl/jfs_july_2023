@@ -1,0 +1,66 @@
+.story-data {
+    color: dimgray;
+    font-size: 25px;
+}
+img#small-logo{
+    width: 50px;
+    height: 40px;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+
+#idUserTable{
+    width: 60%;
+    border: 1px solid orange;
+    border-radius: 2px;
+    padding: 10px;
+    margin: auto;
+    border-collapse: collapse;
+}
+#idUserTable th, #idUserTable td{
+    padding: 10px;
+    border: 1px solid orange;
+}
+.main-heading{
+    background-color: orange;
+    color: white;
+}
+.sub-heading{
+    background-color: darkgray;
+    color: white;
+}
+#idUserTable tr:hover{
+    background-color: gray;
+}
+#second-table{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#customers tr:hover{
+    background-color: gray;
+}
